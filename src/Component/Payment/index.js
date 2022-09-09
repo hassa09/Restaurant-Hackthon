@@ -8,7 +8,7 @@ import {
 // This values are the props in the UI
 const amount = '2';
 const currency = 'USD';
-const style = { layout: 'vertical' };
+const style = { layout: 'vertical', backgroundColor: 'green' };
 
 // Custom component to wrap the PayPalButtons and handle currency changes
 const ButtonWrapper = ({ currency, showSpinner }) => {
@@ -61,9 +61,9 @@ const ButtonWrapper = ({ currency, showSpinner }) => {
   );
 };
 
-export default function App() {
+export default function Payment() {
   return (
-    <div style={{ maxWidth: '750px', minHeight: '200px' }}>
+    <div style={{ maxWidth: '750px', minHeight: '200px', zIndex: '10' }}>
       <PayPalScriptProvider
         options={{
           'client-id': 'test',

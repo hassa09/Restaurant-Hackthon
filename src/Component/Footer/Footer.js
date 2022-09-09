@@ -7,6 +7,7 @@ import {
 
 import logo from "../../assets/Images/ciao.png";
 
+
 const Footer = () => {
   return (
     <footer className="flex justify-between items-center w-full h-[6rem] px-1 sm:px-4 bg-slate-700 absolute inset-x-0 bottom-0">

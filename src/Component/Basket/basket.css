@@ -1,0 +1,23 @@
+#basket-container {
+  color: antiquewhite;
+}
+
+#basket-list {
+  border: dashed 2px white;
+  width: 39vw;
+  padding: 1em;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.delete-button {
+  color: black;
+  background-color: red;
+  border: solid 1px black;
+  padding: 0.2em;
+  border-radius: 1em;
+  font-weight: 700;
+}
