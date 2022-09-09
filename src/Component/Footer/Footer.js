@@ -4,7 +4,7 @@ import {
   AiFillInstagram,
   AiOutlineTwitter,
 } from 'react-icons/ai';
-import logo from '../../assets/ciao.png';
+// import logo from '../../assets/ciao.png';
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
       {/* Logo */}
       <div className='flex flex-row w-1/4 h-auto mt-8 sm:w-56'>
         <div className='relative w-12 h-12 sm:h-16 sm:w-16'>
-          <img src={logo} alt='logo' />
+          {/*    <img src={logo} alt='logo' /> */}
         </div>
       </div>
       {/* Built by and copyright */}
