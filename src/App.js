@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect } from 'react';
+import Payment from './Component/Payment';
 
 function App() {
   useEffect(() => {
@@ -29,10 +30,12 @@ function App() {
           className='App-link'
           href='https://reactjs.org'
           target='_blank'
-          rel='noopener noreferrer'>
+          rel='noopener noreferrer'
+        >
           Learn React
         </a>
       </header>
+      <Payment />
     </div>
   );
 }
