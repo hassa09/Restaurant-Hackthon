@@ -1,10 +1,9 @@
+@import '../../Variables.scss';
 
 
 .header {
-    margin: 5px;
-
-    background: black;
-    color: white;
+    background: $background-color;
+    color: $heading-text-colors;
     transition: 0.1s ease all;
     display: flex;
     align-items: center;
@@ -19,7 +18,7 @@
     justify-content: center;
     position:sticky;
     
-    color: white;
+    color: $heading-text-colors;
     font-family: 'inter';  
     cursor: pointer;     
 }
@@ -69,7 +68,7 @@ ul.nav-login{
 
 .menubar {
     display: none;
-    /* // margin-right: 1.555rem; */
+    // margin-right: 1.555rem;
     z-index: 0;
     cursor: pointer;     
 
@@ -77,7 +76,7 @@ ul.nav-login{
 }
 
 .close {
-    color: white;
+    color: $the-dot-docoration-color;
     display: none;
      cursor: pointer;     
 
@@ -86,11 +85,11 @@ ul.nav-login{
 
 
 
- /* //styling for mobile devices */
+ //styling for mobile devices
 @media (max-width:850px) {
     .header {
         justify-content: space-between;
-        margin-right: 1px;
+        margin-right: 2px;
         font-family: roboto_condensedregular;
 
         
@@ -104,23 +103,23 @@ ul.nav-login{
 
     .navbar {
         display: none;
-        /* // transition: 1s ease; */
+        // transition: 1s ease;
     }
 
     .navbar {
         display: flex;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         position: fixed;
         inset: 0;
-        background: white;
+        background: $mobile-navbar-background;
         transition: 14ms ease;
         right: 46%;
-        margin-top: 300px;
     }
 
     .navlogo{
-    padding: 10px;
+    // padding: 10px;
     width: 29%;
     text-align: center;
     position: sticky;
@@ -128,16 +127,12 @@ ul.nav-login{
     justify-content: center;
     position:sticky;
     
-    color:white;
+    color: $heading-text-colors;
     font-family: 'inter';       
  } 
  .logo-image {
-  width: 75px;
-  height: 65px;
   z-index: 99999999999;
   display: inline-block;
-  width: 58px;
-  height: 24px;
   margin: 20px 0 0;
   padding: 0;
   cursor: pointer;
@@ -148,9 +143,7 @@ ul.nav-login{
         margin: 0 auto;
         align-items: block;
         flex-direction: column;
-        margin-top: 1rem;
-        width: 1500%;
-        margin-top: 1rem;
+        margin-top: 250px;
 
         li.Nav-links {
             align-self: flex-start;
@@ -165,8 +158,8 @@ ul.nav-login{
 
             a {
                 font-size: 18px;
-                color: black;
-                /* // font-weight: bolder;
+                color:$mobile-navbar-background;
+                // font-weight: bolder;
 
 //             // font-weight: bolder;
 //                color: #fff;
@@ -176,19 +169,16 @@ ul.nav-login{
 //                border-style: solid;
 //                border-color: transparent;
 //                padding-bottom: 2px
-            } */
+            }
         }
     }
 
-
-
-
    .menubar {
-        color: white;
+        color: $the-dot-docoration-color;
         display: block;
         
         .menu {
-            color:  white;
+            color:  $the-dot-docoration-color;
             margin-right: 0;
             
         }

@@ -41,8 +41,7 @@ function App() {
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Player from "./Components/MainCarousel/Player";
-
-import logo from './logo.svg';
+import Navbar from "./Component/NavBar/Navbar";
 import './App.css';
 
 function App() {
