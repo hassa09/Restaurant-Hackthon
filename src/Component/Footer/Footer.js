@@ -4,11 +4,7 @@ import {
   AiFillInstagram,
   AiOutlineTwitter,
 } from 'react-icons/ai';
-<<<<<<< HEAD
-import logo from '../../Assets/ciao.png';
-=======
 // import logo from '../../assets/ciao.png';
->>>>>>> c169fa0a89433a5fe7694e2b97560eb802b32841
 
 const Footer = () => {
   return (
