@@ -4,6 +4,7 @@ import {
   AiFillInstagram,
   AiOutlineTwitter,
 } from "react-icons/ai";
+import logo from "../../assets/ciao.png";
 
 const Footer = () => {
   return (
@@ -11,12 +12,12 @@ const Footer = () => {
       {/* Logo */}
       <div className="flex flex-row h-auto w-1/4 sm:w-56">
         <div className="h-12 w-12 sm:h-16 sm:w-16 relative">
-          <img src="" alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
       </div>
       {/* Built by and copyright */}
       <div className="mt-2 text-center">
-        <span className="text-xs sm:text-sm">Built by The Food guys</span>
+        <span className="text-xs sm:text-sm">Built by Ciao!</span>
         <p className="text-[.5rem] sm:text-xs">Copyright &copy;2022</p>
       </div>
       {/* Social Icons*/}
