@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
       </div>
       {/* Built by and copyright */}
-      <div className="mt-3 sm:mt-6 text-center">
+      <div className="mt-2 text-center">
         <span className="text-xs sm:text-sm">Built by The Food guys</span>
         <p className="text-[.5rem] sm:text-xs">Copyright &copy;2022</p>
       </div>
