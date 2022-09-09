@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 import ResLogo from '../../assets/Images/ResLogo.jpg';
 import '../NavBar/Navbar.scss';
 
-function Navbar() {
+function Navbar({ basketOpen, setBasketOpen }) {
   const [active, setActive] = useState(false);
 
   //Navbar icon function
@@ -31,7 +31,14 @@ function Navbar() {
           </div>
           <li className='Nav-links'>Dishes</li>
 
-          <li className='Nav-links'>Basket</li>
+          <li
+            className='Nav-links'
+            onClick={() => {
+              setBasketOpen(!basketOpen);
+            }}
+          >
+            Basket
+          </li>
         </ul>
       </nav>
       <nav className='login-navTag'>
