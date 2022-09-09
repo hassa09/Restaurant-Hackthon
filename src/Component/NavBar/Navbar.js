@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { Icon } from '@iconify/react';
-import ResLogo from '../../assets/Images/ResLogo.jpg';
+import ResLogo from '../../Assets/Images/ResLogo.jpg';
 import '../NavBar/Navbar.scss';
 
 function Navbar() {

@@ -4,15 +4,12 @@ import {
   AiFillInstagram,
   AiOutlineTwitter,
 } from 'react-icons/ai';
-<<<<<<< HEAD
+
 import logo from '../../Assets/ciao.png';
-=======
-// import logo from '../../assets/ciao.png';
->>>>>>> c169fa0a89433a5fe7694e2b97560eb802b32841
 
 const Footer = () => {
   return (
-    <footer className='flex justify-between items-center w-full h-[6rem] px-1 sm:px-4 bg-slate-700'>
+    <footer className='flex justify-between items-center w-full h-[6rem] px-1 sm:px-4 bg-slate-700 absolute inset-x-0 bottom-0'>
       {/* Logo */}
       <div className='flex flex-row w-1/4 h-auto mt-8 sm:w-56'>
         <div className='relative w-12 h-12 sm:h-16 sm:w-16'>
