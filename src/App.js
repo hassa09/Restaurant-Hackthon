@@ -1,22 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect } from 'react';
-import Basket from './Component/Basket';
-
-const items = [
-  {
-    name: 'burger',
-    price: 9.7,
-  },
-  {
-    name: 'lasagne',
-    price: 7.95,
-  },
-  {
-    name: 'chips',
-    price: 2.0,
-  },
-];
 
 function App() {
   useEffect(() => {
@@ -50,7 +34,6 @@ function App() {
           Learn React
         </a>
       </header>
-      <Basket items={items} />
     </div>
   );
 }
