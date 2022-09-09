@@ -7,7 +7,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between items-center w-full h-[6rem] px-1 sm:px-4">
+    <footer className="flex justify-between items-center w-full h-[6rem] px-1 sm:px-4 bg-slate-700">
       {/* Logo */}
       <div className="flex flex-row h-auto w-1/4 sm:w-56">
         <div className="h-12 w-12 sm:h-16 sm:w-16 relative">
