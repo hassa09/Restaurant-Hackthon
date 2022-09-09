@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 
 const Items = () => {
+  // basket local storage - cookies id is ideal but not time
   useEffect(() => {
     const query1 = `https://api.spoonacular.com/recipes/716429/information?apiKey=`;
 
