@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from "./logo.svg";
 import "./App.css";
 import { useEffect } from "react";
@@ -36,6 +37,29 @@ function App() {
         </a>
       </header>
       <Footer />
+=======
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Player from "./Components/MainCarousel/Player";
+
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Navbar />
+        <Routes>
+          {/* <Route path='/' element={< Navbar />} /> */}
+          
+
+        </Routes>
+
+
+      </Router>
+     
+>>>>>>> main
     </div>
   );
 }
